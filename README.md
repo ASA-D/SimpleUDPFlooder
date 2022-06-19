@@ -1,27 +1,27 @@
 SimpleUDPFlooder
 ================
 
-An attempt to learn about the basics of UDP flooding through C Socket Programming. 
+C言語ソケットプログラミングを用いたUDP flood。
 
-What are we using?
+使用したライブラリ
 ==================
 
-Libnet 1.2 
-Documentation is at http://fossies.org/dox/libnet-libnet-1.2/
+Libnet 1.2を使用した。 
+詳しくはhttp://fossies.org/dox/libnet-libnet-1.2/　を参照すること。
 
-Installing Libnet API
+Libnet APIのインストール
 =====================
 
-On Debian, I installed Libnet through
+debianであればこのコマンドを実行する。
 ```
 sudo apt-get install libnet1-dev
 ```
 
-Basic Usage
+使い方
 ===========
 
-The makefile will compile a executable called "sup" 
+このmakefileは、"sup "という名前の実行ファイルを生成する。
 ```
 Usage: sup <Destination IP> <Destination UDP port> <Number of packets to create>
 ```
-Root priviledges are required to open a raw socket. 
+raw socketを開くには、root権限が必要。
