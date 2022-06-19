@@ -7,7 +7,9 @@ C言語ソケットプログラミングを用いたUDP flood。
 ==================
 
 Libnet 1.2を使用した。 
-詳しくはhttp://fossies.org/dox/libnet-libnet-1.2/　を参照すること。
+詳しくは以下の資料を参照すること
+
+http://fossies.org/dox/libnet-libnet-1.2/　
 
 Libnet APIのインストール
 =====================
